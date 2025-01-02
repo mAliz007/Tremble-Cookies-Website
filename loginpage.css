@@ -1,0 +1,121 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+.contact {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); 
+    border: 2px solid violet;
+}
+
+
+.contact h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: purple;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: blueviolet;
+    margin-bottom: 5px;
+}
+
+
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid blueviolet;
+    border-radius: 7px;
+    font-weight: 500;
+    background-color: beige;
+}
+
+.contact-form input:focus {
+    outline: none;
+    border-color: violet;
+    box-shadow: 0 0 8px rgba(128, 0, 128, 0.5);
+}
+
+
+.contact-form .btn {
+    display: flex;
+    justify-content: center; 
+    margin-top: 20px;
+}
+
+
+.contact-form .btn button {
+    width: 100%; 
+    padding: 15px;
+    border-radius: 30px;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: linear-gradient(to right, pink, violet, red);
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.contact-form .btn button:hover {
+    transform: scale(1.05);
+    background: linear-gradient(to right, violet, pink, red);
+}
+
+
+@media (max-width: 768px) {
+    .contact {
+        width: 95%; 
+        padding: 20px;
+    }
+
+    .contact h1 {
+        font-size: 2.5rem; 
+    }
+
+    .contact-form label {
+        font-size: 1rem; 
+    }
+
+    .contact-form input {
+        font-size: 0.9rem; 
+    }
+
+    .contact-form .btn button {
+        font-size: 1rem; 
+    }
+}

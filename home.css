@@ -1,0 +1,210 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+body {
+    width: 100%;
+    background: linear-gradient(pink, rgb(242, 194, 204), rgb(110, 107, 108), rgb(143, 6, 51));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+    width: 100%;
+}
+
+
+.navbar {
+    background-color: rgb(236, 174, 255);
+    width: 90%;
+    height: 120px;
+    display: flex;
+    gap: 20px;
+    padding: 5px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px auto;
+    border: 5px solid purple;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.logo img {
+    margin: 3px;
+    padding: 3px;
+    width: 90%;
+    margin-top: 3px;
+    height: 90%;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.navbar .sign button {
+    width: 120px;
+    height: 40px;
+    border: none;
+    padding: 5px;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(rgba(223, 95, 95, 0.87), rgba(207, 70, 166, 0.884));
+    cursor: pointer;
+    transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.navbar .sign button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(rgba(207, 70, 166, 0.884), rgba(223, 95, 95, 0.87));
+}
+
+.main .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: auto;
+    width: 90%;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.main .container .box1 {
+    flex: 1;
+    text-align: left;
+}
+
+.main .container .box1 h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(182, 60, 60);
+}
+
+.main .container .box1 h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 3rem;
+    margin: 10px 0;
+}
+
+.main .container .box1 p {
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.main .container .box2 {
+    flex: 1; 
+    text-align: center;
+}
+
+.main .container .box2 video{
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .box1 {
+        order: 1;
+    }
+
+    .box2 {
+        order: 2;
+        margin-top: 20px;
+    }
+
+    .box1 h1 {
+        font-size: 2.5rem;
+    }
+
+    .box1 h2 {
+        font-size: 1.5rem;
+    }
+
+    .box1 p {
+        font-size: 1rem;
+    }
+
+    .box2 img {
+        max-width: 90%;
+    }
+}
+.cookie-popup {
+    position: fixed;
+    top: 0;
+    left: 830px;
+    width: 33%;
+    height: 50px;
+    background-color: #ffcc00;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.cookie-popup .close-btn {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    margin:  auto;
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.cookie-popup .close-btn:hover {
+    background-color: #e60000;
+}
+
+
+body {
+    margin-top: 70px;
+}
+
+.footing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+}
+.part1, .part2, .part3{
+    margin: 5px;
+    padding: 10px;
+    text-wrap: wrap;
+}
+h4{
+    margin: 10px;
+}

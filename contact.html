@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="home.css">
+        <link rel="stylesheet" href="contact.css">
+        <title>Contact Tremble Cookies</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="Tremble Cookies.png" alt="logo">
+                </div>
+                <ul list-style-type: none;>
+                    <li>
+                        <a href="home.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="about.html">
+                            About 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="menu.html">
+                            Menu 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact 
+                        </a>
+                    </li>
+                    <li>
+                        <a href="reviews.html">
+                            Reviews 
+                        </a>
+                    </li>
+                </ul>
+                <div class="sign">
+                    <button onclick="location.href='loginpage.html'">
+                        Login/Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="myVid">
+            <video src="Sign up for weekly news letter and be part of the family.mp4" autoplay loop muted width="600px" height="600px"></video>
+        </div>
+       
+        <div class="full">
+           
+            <div class="form">
+                <div class="heading">
+                    <h1>Contact us</h1>
+                </div>
+                
+            <form id="form">
+                <label for="fname">First Name</label>
+                <input type="text" name="fname" placeholder="Bugs" required>
+
+                <label for="lname">Last Name</label>
+                <input type="text" name="lname" placeholder="bunny" required>
+
+                <label for="number">Contact Number</label>
+                <input type="number" name="number" placeholder="0301-9287654"required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="bugsbunny@gmail.com">
+
+                <label for="message">Comments</label>
+                <textarea name="message"></textarea>
+
+                <h3>Do You Want to Recieve Our Weekly News Letter?</h3>
+                <input class="checkbox" type="checkbox">
+
+                <button class="submit">
+                    <input type="submit" id="submit">
+                </button>
+                <script>
+                    document.getElementById("form").addEventListener("submit",function(event){
+                        alert("Form Submitted Successfully");
+                    }
+                )
+                </script>
+                
+            </form>
+     
+  </div>
+
+           
+
+     
+    </body>
+</html>

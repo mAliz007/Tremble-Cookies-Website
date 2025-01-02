@@ -1,0 +1,55 @@
+.mai{
+    
+     
+    
+    
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    margin: 20px;
+    padding: 50px;
+    
+}
+.image {
+    
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    position: relative;
+    padding: 10px;
+    
+    
+
+    
+}
+.image img{
+    border-radius: 10px;
+    margin: 10px;
+    border: 3px solid lightgoldenrodyellow;
+
+}
+.table{
+    width: auto;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.image h2{
+    margin: 10px;
+    text-align: center;
+    font-size:large;
+    color:black;
+}
+.image button{
+    
+    text-align: center;
+align-items: center;
+width: 300px;
+border-radius: 10px;
+height: 70px;
+margin: 0 auto;
+
+}

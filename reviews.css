@@ -1,0 +1,54 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.heading{
+    text-align: center;
+    justify-content: center;
+    font-size:xx-large ;
+    margin-top: 40px;
+}
+.full{
+    align-content: center;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.review h2{
+    margin: 10px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: azure;
+}
+.yourReview{
+    border: 5px solid pink;
+    align-content: center;
+    padding: 50px;
+    margin: auto;
+    margin-bottom: 50px;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 100px;
+}
+.review{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid palevioletred;
+    width: 250px;
+    margin: 60px auto;
+    padding: 10px;
+}
+.review img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 3px solid pink;
+}
+p{
+    text-wrap: wrap;
+}
